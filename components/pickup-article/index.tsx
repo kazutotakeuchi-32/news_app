@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
 import moment from "moment";
-import Props from "../types";
+import { Props }from "../../types/home";
 
 const PickupArticle: React.FC<Props> = ({ articles }) => {
   return (
