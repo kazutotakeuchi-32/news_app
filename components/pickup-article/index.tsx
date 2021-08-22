@@ -15,7 +15,7 @@ const PickupArticle:any = ({ articles }) => {
                 .fromNow()
                 .slice(0, 1);
         return (
-          <a href={article.url} key={index} target="_blank" rel="noopener">
+          <a href={article.url} key={index}  rel="noopener">
             <article className={styles.article__main}>
               <div className={styles.article__title}>
                 <p>{article.title}</p>
