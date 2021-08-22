@@ -119,3 +119,27 @@
     flex-direction: column;
   }
 }
+
+
+.contents {
+  display: flex;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 6;
+}
+
+.nav {
+  flex: 2;
+  position: fixed;
+}
+
+.asaide {
+  flex :2;
+
+}
+
+.blank {
+  flex: 2;
+}
