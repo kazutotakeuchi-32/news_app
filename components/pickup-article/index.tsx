@@ -2,7 +2,7 @@ import styles from "./index.module.scss";
 import moment from "moment";
 import { Props }from "../../types/home";
 
-const PickupArticle: React.FC<Props> = ({ articles }) => {
+const PickupArticle:any = ({ articles }) => {
   return (
     <section className={styles.pickup}>
       <h1 className={styles.article__heading}>PickUp</h1>

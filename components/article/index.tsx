@@ -2,7 +2,7 @@ import styles from "./index.module.scss";
 import moment from "moment";
 import { Props } from "../../types/home";
 
-const Article = ({articles, title}:Props) => {
+const Article = ({articles, title}:any) => {
   return(
     <section className={styles.article}>
        <div className={styles.article__heading}>
